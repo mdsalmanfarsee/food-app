@@ -15,5 +15,5 @@ export const assets = {
     parcel_icon
 }
 
-//export const url = 'http://localhost:4000'
-export const url='https://foodhut-backend-rbo7.onrender.com'
+export const url = 'http://localhost:4000'
+// export const url='https://foodhut-backend-rbo7.onrender.com'
