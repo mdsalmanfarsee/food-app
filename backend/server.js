@@ -13,11 +13,14 @@ const app = express();
 const PORT = process.env.PORT || 4000
 //add middlewire
 app.use(express.json())
-app.use(cors({
+app.use(cors());
+/*
+{
     origin:["https://food-app-frontend-tau.vercel.app"],
     methods:["POST","GET"],
     credentials:true
-}))
+}
+*/
 
 //connect database
 connectDB();
