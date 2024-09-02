@@ -11,7 +11,7 @@ export const StoreContextProvider = (props) => {
     const [food_list, setFood_list] = useState([]);
     // const url = "http://localhost:4000"
     //const url = "https://foodhut-backend-rbo7.onrender.com"
-    const url="https://food-app-pi-six.vercel.app"
+    const url="https://food-app-backend-pearl.vercel.app"
     const [token, setToken] = useState("");
 
     const addToCart = async (itemId) => {
